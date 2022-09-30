@@ -1,0 +1,10 @@
+
+.PostInformation .posts-title {
+    font-size: 20px;
+}
+
+.PostInformation .posts-body {
+    font-size: 16px;
+    width: 700px;
+    margin-top: 20px;
+}

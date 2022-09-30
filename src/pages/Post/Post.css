@@ -1,0 +1,24 @@
+.Post {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+
+.posts-name {
+    margin: 0 0 20px;
+    font-size: 30px;
+    width: 700px;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+
+.comments-name {
+    margin: 50px 0 20px;
+    font-size: 30px;
+    width: 700px;
+    border-bottom: 2px solid black;
+    text-align: center
+}

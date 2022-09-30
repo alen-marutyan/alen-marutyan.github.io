@@ -1,0 +1,11 @@
+.comments {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.comments .comments-body {
+    font-size: 18px;
+    width: 700px;
+    margin: 5px 0;
+}
