@@ -45,13 +45,6 @@ const Login = () => {
                         </div>
 
                         <div className="col googleDiv">
-                            <GoogleLogin
-                                onSuccess={credentialResponse => {
-                                    console.log(credentialResponse)
-                                }}
-                                onError={() => {
-                                    console.log('Login Failed');
-                                }}/>
                             <button className={'googleDivBtn'} onClick={(event)=>{
                                 event.preventDefault();
                                 login();
